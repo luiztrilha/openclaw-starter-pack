@@ -1,0 +1,27 @@
+﻿{
+  "workspaceRoot": "D:/Times/AcmeOrders-Workspace",
+  "worktreeRoot": "D:/Times/AcmeOrders-Workspace/Swarm/worktrees",
+  "logsRoot": "D:/Times/AcmeOrders-Workspace/.openclaw/runtime/swarm/logs",
+  "stateRoot": "D:/Times/AcmeOrders-Workspace/.openclaw/runtime/swarm/state",
+  "maxParallelTasks": 1,
+  "repos": [
+    {
+      "key": "acme-orders-api",
+      "displayName": "AcmeOrdersApi",
+      "path": "D:/Times/AcmeOrders-Workspace/repos/AcmeOrdersApi",
+      "defaultBranch": "main",
+      "validationCommand": "dotnet test"
+    }
+  ],
+  "workers": [
+    {
+      "key": "codex-primary",
+      "command": "codex",
+      "enabled": true
+    }
+  ],
+  "notifications": {
+    "enabled": false,
+    "provider": "configure-me"
+  }
+}

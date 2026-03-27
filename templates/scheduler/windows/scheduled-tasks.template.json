@@ -1,0 +1,31 @@
+﻿{
+  "tasks": [
+    {
+      "name": "OpenClaw Swarm Supervisor",
+      "description": "Executa o supervisor local do fluxo",
+      "scriptPath": "__WORKSPACE_ROOT__\\.openclaw\\scripts\\Invoke-SwarmSupervisor.ps1",
+      "arguments": "-ConfigPath __WORKSPACE_ROOT__\\.openclaw\\runtime\\swarm\\swarm-config.json",
+      "workingDirectory": "__WORKSPACE_ROOT__",
+      "schedule": "PT5M",
+      "enabled": true
+    },
+    {
+      "name": "OpenClaw Daily Summary",
+      "description": "Gera o consolidado diario do fluxo",
+      "scriptPath": "__WORKSPACE_ROOT__\\.openclaw\\scripts\\Invoke-DailySummary.ps1",
+      "arguments": "",
+      "workingDirectory": "__WORKSPACE_ROOT__",
+      "schedule": "P1D",
+      "enabled": false
+    },
+    {
+      "name": "OpenClaw Housekeeping",
+      "description": "Limpa estado temporario e worktrees antigas",
+      "scriptPath": "__WORKSPACE_ROOT__\\.openclaw\\scripts\\Invoke-Housekeeping.ps1",
+      "arguments": "",
+      "workingDirectory": "__WORKSPACE_ROOT__",
+      "schedule": "P1D",
+      "enabled": false
+    }
+  ]
+}

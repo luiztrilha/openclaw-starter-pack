@@ -1,0 +1,28 @@
+﻿model = "__CODEX_MODEL__"
+model_reasoning_effort = "__REASONING_EFFORT__"
+approvals_reviewer = "user"
+model_provider = "__PRIMARY_PROVIDER_ID__"
+
+[model_providers.__PRIMARY_PROVIDER_ID__]
+name = "__PROVIDER_NAME__"
+base_url = "__BASE_URL__"
+wire_api = "responses"
+supports_websockets = true
+
+[projects.'\\?\__WORKSPACE_ROOT__']
+trust_level = "trusted"
+
+[windows]
+sandbox = "elevated"
+
+[features]
+multi_agent = true
+prevent_idle_sleep = true
+
+[notice]
+hide_rate_limit_model_nudge = true
+hide_full_access_warning = true
+
+[mcp_servers.filesystem]
+command = "npx"
+args = ["-y", "@modelcontextprotocol/server-filesystem", "__PRIMARY_REPO_PATH__"]

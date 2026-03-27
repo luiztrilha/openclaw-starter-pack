@@ -1,0 +1,14 @@
+﻿# Segredos locais
+.openclaw/runtime/secrets.local.json
+
+# Runtime efetivo gerado localmente
+.openclaw/runtime/generated/
+
+# Estado e logs locais
+.openclaw/state/
+.openclaw/logs/
+Relatorios/
+Swarm/
+
+# Worktrees temporarias
+.wt/

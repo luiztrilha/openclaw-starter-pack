@@ -1,0 +1,18 @@
+﻿{
+  "WORKSPACE_ROOT": "D:\\Times\\MeuTimeAI",
+  "WORKTREE_ROOT": "D:\\WT\\MeuTimeAI",
+  "STATE_ROOT": "D:\\Times\\MeuTimeAI\\.openclaw\\state",
+  "LOGS_ROOT": "D:\\Times\\MeuTimeAI\\.openclaw\\logs",
+  "REPO_NAME": "MeuRepoPiloto",
+  "REPO_SLUG": "meu-repo-piloto",
+  "REPO_CODE": "mrp",
+  "REPO_PATH": "D:\\Times\\MeuTimeAI\\repos\\MeuRepoPiloto",
+  "CODEX_SESSIONS_ROOT": "C:\\Users\\__USER__\\.codex\\sessions",
+  "CODEX_HISTORY_PATH": "C:\\Users\\__USER__\\.codex\\history.jsonl",
+  "CODEX_MODEL": "gpt-5.4-mini",
+  "REASONING_EFFORT": "medium",
+  "PRIMARY_PROVIDER_ID": "my-provider",
+  "PROVIDER_NAME": "OpenAI",
+  "BASE_URL": "http://127.0.0.1:2455/backend-api/codex",
+  "PRIMARY_REPO_PATH": "D:\\Times\\MeuTimeAI\\repos\\MeuRepoPiloto"
+}

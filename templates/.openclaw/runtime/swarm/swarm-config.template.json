@@ -1,0 +1,41 @@
+﻿{
+  "version": 1,
+  "reportsRoot": "__WORKSPACE_ROOT__\\Relatorios",
+  "swarmReportsRoot": "__WORKSPACE_ROOT__\\Relatorios\\Swarm",
+  "worktreeRoot": "__WORKTREE_ROOT__",
+  "stateRoot": "__STATE_ROOT__",
+  "logsRoot": "__LOGS_ROOT__",
+  "maxParallelTasks": 1,
+  "maxAttempts": 2,
+  "plannerBacklogJson": "__WORKSPACE_ROOT__\\Relatorios\\Swarm\\task-backlog.json",
+  "plannerBacklogMarkdown": "__WORKSPACE_ROOT__\\Relatorios\\Swarm\\task-backlog.md",
+  "supervisorStatusPath": "__WORKSPACE_ROOT__\\Relatorios\\Swarm\\supervisor-status.md",
+  "defaultBaseBranch": "main",
+  "repos": [
+    {
+      "agentId": "repo-__REPO_SLUG__",
+      "repoCode": "__REPO_CODE__",
+      "repoName": "__REPO_NAME__",
+      "repoPath": "__REPO_PATH__",
+      "reportPath": "__WORKSPACE_ROOT__\\Relatorios\\__REPO_NAME__\\autonomous-code-audit.md"
+    }
+  ],
+  "workerPool": [
+    {
+      "label": "primary-codex",
+      "command": "codex",
+      "name": "codex-primary"
+    }
+  ],
+  "codexSessionObservability": {
+    "enabled": true,
+    "sessionsRoot": "__CODEX_SESSIONS_ROOT__",
+    "historyPath": "__CODEX_HISTORY_PATH__",
+    "reportPath": "__WORKSPACE_ROOT__\\Relatorios\\Swarm\\codex-session-observability.md",
+    "jsonPath": "__WORKSPACE_ROOT__\\Relatorios\\Swarm\\codex-session-observability.json",
+    "windowHours": 24,
+    "maxSessions": 40,
+    "recentActiveMinutes": 20,
+    "freshnessMaxHours": 2
+  }
+}

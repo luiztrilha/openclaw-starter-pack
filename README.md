@@ -1,17 +1,20 @@
 # OpenClaw Starter Pack
 
-Ready-to-share starter pack exported from the local OpenClaw workspace.
+Starter pack pronto para bootstrap de um fluxo tipo OpenClaw em outro workspace ou equipe.
 
-## Contents
+## Comece por aqui
 
-- `OpenClaw-Starter-Pack.zip`
+- `MANUAL-DO-ZERO.md`
+- `IMPLEMENTATION-CHECKLIST.md`
+- `ROLLOUT-BY-MATURITY.md`
+- `PACK-CONTENTS.md`
 
-## Artifact
+## Estrutura
 
-- Source path: `D:\Repos\Relatorios\OpenClaw-Starter-Pack.zip`
-- SHA256: `345FB1F7B613905C096AE806836DE9743BB8800A261B17800C54C1AF864F59D4`
-- Exported at source: `2026-03-25 10:02:56`
+- `templates/`: templates de workspace, repo, scheduler e `.openclaw`
+- `scripts/`: scaffolding e renderizacao de templates
+- `examples/`: exemplo ponta a ponta de workspace inicial
 
-## Usage
+## Observacao
 
-Download the zip and extract it locally.
+Este repositório publica o conteúdo extraído do pack distribuível local, em vez do `.zip`.

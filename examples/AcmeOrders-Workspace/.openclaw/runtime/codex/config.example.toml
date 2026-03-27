@@ -1,0 +1,12 @@
+﻿provider = "configure-me"
+model = "configure-me"
+approval_policy = "on-request"
+sandbox_mode = "workspace-write"
+
+[workspace]
+trusted_root = "D:/Times/AcmeOrders-Workspace"
+sessions_dir = "D:/Times/AcmeOrders-Workspace/.openclaw/runtime/codex/sessions"
+
+[mcp.filesystem]
+enabled = true
+roots = ["D:/Times/AcmeOrders-Workspace"]
